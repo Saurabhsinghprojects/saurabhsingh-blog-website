@@ -18,7 +18,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
 
 
-const fileUpload=require('express-fileUpload')
+const fileUpload=require('express-fileupload')
 app.use(fileUpload())
 
 const validateMiddleWare=require('./middleware/validationMiddleware')
